@@ -1,0 +1,115 @@
+@font-face {
+    font-family:abodoninova_bolditalic; /* Имя шрифта */
+    src: url(../fonts/abodoninova_bolditalic.ttf); /* Путь к файлу со шрифтом */
+   }
+body{
+	background-color:  #DCDCDC;
+	}
+header{
+	background-image: url(../images/fon.jpg);
+	height: 150px;
+	color: #FFFFFF;
+	font-family: abodoninova_bolditalic;
+	position: relative;
+	background-size: 100%;
+	}
+#name{	font-size: 500%;
+		display: inline-block;
+		position: absolute;
+		margin-top: 20px;
+		padding-left: 10%;
+	}
+#photo_small{
+	height: 145px;
+	width: 145px;
+	margin: 2px;
+	cursor: pointer;
+	-moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    -webkit-transition: all 1.5s ease;
+    margin-left: 1.5%;
+}
+#photo_small:hover {
+	border-radius: 28px;
+	-webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2); 
+    -o-transform: scale(1.2);
+  }
+ul{list-style-type:none;
+
+}
+aside{float:left;
+	font-family: Helvetica;
+	background-color: #A9A9A9;
+	width: 200px;
+	padding-left: 0px;
+	margin-top: 10px; 
+	height:700px;
+	line-height:190%;
+	border-radius:;
+	text-align: center;
+	background: linear-gradient( rgba(22,22,22,.05),rgba(220,220,220,1));
+}
+section {
+	float: right;
+	width: 85%;
+	font-family: Helvetica;
+	text-align: justify;
+}
+#main_info{
+	margin-top: 10px;
+}
+nav{
+padding-right: 10%;
+color: #696969;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:visited {
+	color: rgba(8,6,6,.52);
+}
+nav a:hover {
+	color:#FFFFFF;
+}
+h2 {
+	padding-left: 5%;
+}
+
+#content{padding-left: 5%;
+		font-size:120%;
+		font-weight: bold;
+		font-style: normal;
+		color: #000000;
+}
+#contacts{
+	font-weight: bold;
+}
+footer {background-image: url(../images/fon.jpg);
+	clear:both;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Helvetica;
+	padding: 1.5%;
+}
+/*responsive*/
+@media (max-width: 1366px){
+	header{
+		background-image: url(../images/fon.jpg);
+		height: 150px;
+	}
+	#name{	font-size: 300%;
+	}
+	section{position: relative;
+		top: -700px;
+		left: 100px;
+		padding-left: 2px;
+	}
+	footer{position: relative;
+		top: -700px;
+	}
+		#container{height: 1000px;
+		}
+		html{height: 1000px;
+		}
+}
