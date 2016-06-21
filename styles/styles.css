@@ -14,7 +14,7 @@ header {
 	font-family: abodoninova_bolditalic;
 	position: relative;
 	background-size: 100%;
-	}
+}
 
 #name {
 	font-size: 500%;
@@ -30,16 +30,16 @@ header {
 	margin: 2px;
 	cursor: pointer;
 	-moz-transition: all 1.5s ease;
-    -o-transition: all 1.5s ease;
-    -webkit-transition: all 1.5s ease;
-    margin-left: 1.5%;
+    	-o-transition: all 1.5s ease;
+	 -webkit-transition: all 1.5s ease;
+	 margin-left: 1.5%;
 }
 
 #photo_small:hover {
 	border-radius: 28px;
 	-webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2); 
-    -o-transform: scale(1.2);
+	 -moz-transform: scale(1.2); 
+    	-o-transform: scale(1.2);
 }
 
 ul {
@@ -133,6 +133,7 @@ footer {
 		position: relative;
 		top: -700px;
 	}
+	
 	#container {
 		height: 1000px;
 	}
